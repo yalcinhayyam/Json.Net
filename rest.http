@@ -1,0 +1,33 @@
+
+
+###
+GET http://localhost:5000/text
+Content-Type: application/text/plain
+
+{
+    "hello":"world"
+}
+
+###
+GET http://localhost:/json
+Content-Type: application/json
+
+{
+    "hello":"world"
+}
+
+###
+GET http://localhost:5000/foo
+Content-Type: application/json
+
+{
+    "hello":"world"
+}
+
+###
+GET http://localhost:5000/service
+Content-Type: application/json
+
+{
+    "hello":"world"
+}
